@@ -1,0 +1,21 @@
+.game{
+    background-color: #f8f8f8;
+        padding: 20px;
+        height: 100%
+        ;
+}
+.grid {
+    display: grid; 
+    gap: 1rem; 
+    justify-content: center;
+    grid-template-columns: repeat(4, 180px);
+}
+ .header{
+    display: flex;
+    justify-content: space-between;
+     background-color: #d1d1d1;
+ }
+ .gameended{
+    display: fixed;
+ }
+ 

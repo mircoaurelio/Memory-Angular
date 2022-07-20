@@ -1,0 +1,8 @@
+<div class="card" (click)="cardClicked.emit()" [class]="data.state"> 
+        <div class="frontface">
+            <img [src]="'https://picsum.photos/id/' + data.cardId + '/180/180'">
+        </div>
+        <div class="backface">
+            <span class="backcard"></span> 
+        </div> 
+</div>
